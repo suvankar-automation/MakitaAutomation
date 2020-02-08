@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <test name="Test(failed)">
+    <classes>
+      <class name="com.google.tests.GoogleHome">
+        <methods>
+          <include name="launchBrowser"/>
+          <include name="googleSearch"/>
+          <include name="endTest"/>
+          <include name="register"/>
+          <include name="getresult"/>
+        </methods>
+      </class> <!-- com.google.tests.GoogleHome -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
